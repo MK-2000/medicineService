@@ -1,0 +1,211 @@
+src/main/java/com/medistock/medicineService/MedicineServiceApplication.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/MedicineServiceApplication.java:14:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/medistock/medicineService/MedicineServiceApplication.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:34:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:34:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:36:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:36:	ProperLogger:	ProperLogger: Logger should be defined private static final and have the correct class
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:40:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'medicineService'
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:40:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:44:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'environment'
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:44:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:52:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineDto' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'add' could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:64:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineDto' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:65:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ret' could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:74:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:74:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:84:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:84:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:85:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'res' could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:94:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:95:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicines' could be declared final
+src/main/java/com/medistock/medicineService/controller/MedicineController.java:96:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ResponseEntity<>(...)`
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:9:	DataClass:	DataClass: The class 'MedicineDto' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=18, WMC=26)
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:38:	CommentSize:	CommentSize: Comment is too large: Line too long
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'batchCode' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:44:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineName' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineType' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'expiryDate' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:47:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'purchasePrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:48:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sellingPrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:49:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'manufacturer' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rack' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:87:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'batchCode' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:101:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineName' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:115:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineType' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:129:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'expiryDate' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:143:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'purchasePrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:157:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sellingPrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:171:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'manufacturer' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:185:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rack' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:203:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:205:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:205:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:207:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:207:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:209:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:209:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/medistock/medicineService/dto/MedicineDto.java:210:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:20:	DataClass:	DataClass: The class 'MedicineEntity' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=18, WMC=27)
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:53:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:65:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:66:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'batchCode' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:67:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineName' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:68:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineType' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:69:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'expiryDate' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'purchasePrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:71:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sellingPrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:72:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'manufacturer' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rack' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:85:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:97:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'batchCode' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:98:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineName' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:99:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineType' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:100:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'expiryDate' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:101:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'purchasePrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:102:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sellingPrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:103:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'manufacturer' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:104:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rack' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:126:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:140:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'batchCode' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:154:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineName' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:168:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineType' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:182:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'expiryDate' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:196:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'purchasePrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:210:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'sellingPrice' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:224:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'manufacturer' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:238:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rack' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:255:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'obj' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:257:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:257:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:259:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:259:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:261:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:261:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/medistock/medicineService/entity/MedicineEntity.java:262:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'other' could be declared final
+src/main/java/com/medistock/medicineService/exception/MedicineServiceException.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/exception/MedicineServiceException.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/repository/MedicineRepository.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/service/MedicineService.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/service/MedicineService.java:19:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'addMedicine': the method is declared in an interface type
+src/main/java/com/medistock/medicineService/service/MedicineService.java:26:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'updateMedicine': the method is declared in an interface type
+src/main/java/com/medistock/medicineService/service/MedicineService.java:33:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'deleteMedicine': the method is declared in an interface type
+src/main/java/com/medistock/medicineService/service/MedicineService.java:40:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getMedicineById': the method is declared in an interface type
+src/main/java/com/medistock/medicineService/service/MedicineService.java:46:	UnnecessaryModifier:	UnnecessaryModifier: Unnecessary modifier 'public' on method 'getAllMedicines': the method is declared in an interface type
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:24:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:26:	ProperLogger:	ProperLogger: Logger should be defined private static final and have the correct class
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:42:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicine' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:44:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicineEntity' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fromRepo' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'checkMedicineName' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:64:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicine' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:66:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fromRepo' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:67:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicineEntity' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:87:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:88:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fromRepo' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:89:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'user' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:101:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'medicineId' is not assigned and could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fromRepo' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:103:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:104:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicineDto' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:104:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'medicineDto'
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:114:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'fromRepo' could be declared final
+src/main/java/com/medistock/medicineService/service/MedicineServiceImpl.java:115:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicineDto' could be declared final
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:19:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:19:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:19:	TestClassWithoutTestCases:	TestClassWithoutTestCases: The class 'MedicineControllerTest' might be a test class, but it contains no test cases.
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:22:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'medicineRepository'
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:22:	LongVariable:	LongVariable: Avoid excessively long variable names like medicineRepository
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:25:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'modelMapper'
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:29:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'medicineService'
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:31:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'medicineController'
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:31:	LongVariable:	LongVariable: Avoid excessively long variable names like medicineController
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:34:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:34:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:39:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:39:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:44:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:44:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:49:	SignatureDeclareThrowsException:	SignatureDeclareThrowsException: A method/constructor should not explicitly throw java.lang.Exception
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:49:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:53:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:54:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:58:	AvoidDuplicateLiterals:	AvoidDuplicateLiterals: The String literal "pwd" appears 6 times in this file; the first occurrence is on line 58
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:67:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/medistock/medicineService/MedicineControllerTest.java:68:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:5:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.ArrayList'
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:6:	UnnecessaryImport:	UnnecessaryImport: Unused import 'java.util.List'
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:26:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:26:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:26:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:29:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'medicineRepository'
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:29:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:29:	LongVariable:	LongVariable: Avoid excessively long variable names like medicineRepository
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:32:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'modelMapper'
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:35:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'medicineService'
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:35:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:37:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:38:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:52:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:53:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:68:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:70:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:70:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'MedicineEntityTest': 'medicineDTO' is already in scope
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:73:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:77:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:78:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:79:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:79:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'MedicineEntityTest': 'medicineDTO' is already in scope
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:82:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ex' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:82:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:83:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:88:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:90:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:90:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'MedicineEntityTest': 'medicineDTO' is already in scope
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:93:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:97:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:98:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:99:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:99:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'MedicineEntityTest': 'medicineDTO' is already in scope
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:102:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'ex' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:102:	ShortVariable:	ShortVariable: Avoid variables with short names like ex
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:103:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:107:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:108:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:108:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:108:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:110:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'medicine' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:110:	UnnecessaryFullyQualifiedName:	UnnecessaryFullyQualifiedName: Unnecessary qualifier 'MedicineEntityTest': 'medicineDTO' is already in scope
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:111:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:111:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:112:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:117:	UnnecessaryAnnotationValueElement:	UnnecessaryAnnotationValueElement: Avoid the use of value in annotations when its the only element
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:118:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:118:	JUnit5TestShouldBePackagePrivate:	JUnit5TestShouldBePackagePrivate: JUnit 5 tests should be package-private.
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:118:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:120:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'e' could be declared final
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:120:	ShortVariable:	ShortVariable: Avoid variables with short names like e
+src/test/java/com/medistock/medicineService/MedicineEntityTest.java:122:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/medistock/medicineService/MedicineServiceApplicationTests.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/com/medistock/medicineService/MedicineServiceApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/medistock/medicineService/MedicineServiceApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/medistock/medicineService/MedicineServiceApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/medistock/medicineService/MedicineServiceApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
